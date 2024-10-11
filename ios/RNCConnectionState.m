@@ -60,7 +60,6 @@
 {
     return (self.connected == otherState.connected &&
             [self.type isEqualToString:otherState.type] &&
-            [self.cellularGeneration isEqualToString:otherState.cellularGeneration] &&
             self.expensive == otherState.expensive);
 }
 
